@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(247, 229, 208);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* padding-left: 80px; */
+    /* padding-top: 180px; */
+}
+
+.first {
+    width: 450px;
+    height: 450px;
+    /* margin: 60px; */
+    /* this is your border*/
+    /* outline: 2px solid;
+    outline-offset: 15px; */
+    /**/
+    overflow: hidden;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(45deg);
+    background-color: rgba(224, 182, 120, 0.596);
+    margin-top: 120px;
+    margin-left: 120px;
+    margin-bottom: 120px;
+    /* transform: rotate(52deg); */
+}
+  
+.second {
+    width: 450px;
+    height: 450px;
+    /* margin: 60px; */
+    /* this is your border*/
+    /* outline: 2px solid;
+    outline-offset: 15px; */
+    /**/
+    overflow: hidden;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(45deg);
+    background-color: rgba(224, 182, 120, 0.596);
+    margin-top: 120px;
+    margin-left: 120px;
+    margin-bottom: 120px;
+    /* transform: rotate(52deg); */
+}
+  
+.third {
+    width: 450px;
+    height: 450px;
+    /* margin: 60px; */
+    /* this is your border*/
+    /* outline: 2px solid;
+    outline-offset: 15px; */
+    /**/
+    overflow: hidden;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(45deg);
+    background-color: rgba(224, 182, 120, 0.596);
+    margin-top: 120px;
+    margin-left: 120px;
+    margin-bottom: 120px;
+    /* transform: rotate(52deg); */
+}
