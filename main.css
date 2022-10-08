@@ -1,18 +1,48 @@
 body {
-    background-color: rgb(247, 229, 208);
+    /* background-color: rgb(247, 229, 208); */
+    font-family: 'Brush Script MT', cursive;
+    font-size: 50px;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
 }
 
 .container {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    /* padding-left: 80px; */
-    /* padding-top: 180px; */
+}
+
+.boxContainer-first {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: flex-start;
+}
+.boxContainer-second {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 10px;
+}
+.boxContainer-third {
+    display: flex;
+    flex-direction: row;
+}
+
+.rhombus {
+    padding: 120px;
+    align-items: center;
 }
 
 .first {
-    width: 450px;
-    height: 450px;
+    width: 550px;
+    height: 550px;
     /* margin: 60px; */
     /* this is your border*/
     /* outline: 2px solid;
@@ -22,14 +52,23 @@ body {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    transform: rotate(45deg);
-    background-color: rgba(224, 182, 120, 0.596);
-    margin-top: 120px;
-    margin-left: 120px;
-    margin-bottom: 120px;
-    /* transform: rotate(52deg); */
+    /* transform: rotate(45deg); */
+    background-color: rgba(84, 99, 182, 0.459);
+    transform: rotate(62deg);
+    padding: 10px;
 }
-  
+
+.profilePhoto {
+    background-image: url("profile.JPG"); 
+    height: 350px;
+    width: 300px;
+    transform: rotate(-62deg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    margin: 30px;
+}
 .second {
     width: 450px;
     height: 450px;
@@ -43,29 +82,75 @@ body {
     align-items: center;
     justify-content: center;
     transform: rotate(45deg);
-    background-color: rgba(224, 182, 120, 0.596);
-    margin-top: 120px;
-    margin-left: 120px;
-    margin-bottom: 120px;
-    /* transform: rotate(52deg); */
+    background-color: rgba(245, 157, 117, 0.459);
+    padding: 10px;
+}
+
+.workPhoto {
+    background-image: url("work.JPG"); 
+    height: 330px;
+    width: 300px;
+    transform: rotate(-45deg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    margin: 30px;
 }
   
-.third {
+.title {
+    position: absolute;
+    left: 40%;
+    top: 20%;
+}
+
+.box {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+}
+
+.about-me {
+    padding-top: 250px;
+    padding-left: 60px;
+}
+
+.workExperience {
+    padding-left: 20px;
+}
+
+.certifications {
+    padding-left: 20px
+}
+
+.hobby {
+    padding-left: 40px;
+}
+
+.contact {
+    padding-left: 40px
+}
+
+
+/* .third {
     width: 450px;
-    height: 450px;
+    height: 450px; */
     /* margin: 60px; */
     /* this is your border*/
     /* outline: 2px solid;
     outline-offset: 15px; */
     /**/
-    overflow: hidden;
+    /* overflow: hidden;
     display: inline-flex;
     align-items: center;
-    justify-content: center;
-    transform: rotate(45deg);
-    background-color: rgba(224, 182, 120, 0.596);
-    margin-top: 120px;
+    justify-content: center; */
+    /* transform: rotate(45deg); */
+    /* background-color: rgba(224, 182, 120, 0.596); */
+    /* margin-top: 120px;
     margin-left: 120px;
-    margin-bottom: 120px;
-    /* transform: rotate(52deg); */
-}
+    margin-bottom: 120px; */
+    /* transform: rotate(62deg);
+    padding-top: 10%;
+    padding-left: 10%;
+    margin: 120px;
+} */
