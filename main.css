@@ -1,7 +1,7 @@
 body {
     /* background-color: rgb(247, 229, 208); */
-    font-family: 'Brush Script MT', cursive;
-    font-size: 50px;
+    font-family: 'Georgia', Serif;
+    font-size: 40px;
 }
 
 #myVideo {
@@ -22,12 +22,12 @@ body {
     display: flex;
     flex-direction: row;
     padding: 10px;
-    justify-content: flex-start;
+    justify-content: space-between;
 }
 .boxContainerSecond {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-between;
     padding: 10px;
 }
 .boxContainerThird {
@@ -37,7 +37,7 @@ body {
 }
 
 .rhombus {
-    padding: 120px;
+    padding-top: 150px;
     align-items: center;
 }
 
@@ -71,8 +71,8 @@ body {
     margin: 30px;
 }
 .second {
-    width: 450px;
-    height: 450px;
+    width: 550px;
+    height: 550px;
     /* margin: 60px; */
     /* this is your border*/
     /* outline: 2px solid;
@@ -96,7 +96,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
-    margin: 30px;
+    margin: 40px;
 }
   
 .title {
@@ -111,26 +111,47 @@ body {
     flex-direction: row;
 }
 
+.boxTitle {
+    text-align: center;
+}
+
 .about-me {
     padding-top: 250px;
-    padding-left: 60px;
-    display: flex;
+    padding-left: 150px;
     flex-direction: column;
-    
+    text-align: center;
 }
 
 .workExperience {
     padding-left: 20px;
-    display: flex;
     flex-direction: column;
     
 }
 
-
 .certifications {
     padding-left: 20px;
-    display: flex;
     flex-direction: column;
+}
+
+.knowledge {
+    padding-left: 20px;
+    flex-direction: column;
+    margin: 20px;
+    align-items: center;
+    
+}
+
+.progress {
+    position: relative;
+    width: 800px;
+    background-color: rgba(0, 0, 0, 0.322);
+    margin: 2px;
+    font-size: 15px;
+}
+
+div.item {
+    font-size: 20px;
+    text-align: start;
 }
 
 .hobby {
@@ -150,6 +171,25 @@ body {
 .card {
     --bs-card-bg: transparent;
 }
+
+.overflow-auto {
+    position: relative;
+    height: 450px;
+   
+}
+
+::-webkit-scrollbar {
+    background-color:#000000ab ;
+}
+::-webkit-scrollbar-button {
+    background-color:#666867 ;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #b8b8b8
+}
+
+
+    
 
 
 /* .third {
