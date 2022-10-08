@@ -18,21 +18,22 @@ body {
     justify-content: flex-start;
 }
 
-.boxContainer-first {
+.boxContainerFirst {
     display: flex;
     flex-direction: row;
     padding: 10px;
     justify-content: flex-start;
 }
-.boxContainer-second {
+.boxContainerSecond {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     padding: 10px;
 }
-.boxContainer-third {
+.boxContainerThird {
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
 }
 
 .rhombus {
@@ -59,7 +60,7 @@ body {
 }
 
 .profilePhoto {
-    background-image: url("profile.JPG"); 
+    background-image: url("./3rd-party/image/profile.JPG"); 
     height: 350px;
     width: 300px;
     transform: rotate(-62deg);
@@ -87,7 +88,7 @@ body {
 }
 
 .workPhoto {
-    background-image: url("work.JPG"); 
+    background-image: url("./3rd-party/image/work.JPG"); 
     height: 330px;
     width: 300px;
     transform: rotate(-45deg);
@@ -113,22 +114,41 @@ body {
 .about-me {
     padding-top: 250px;
     padding-left: 60px;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .workExperience {
     padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    
 }
 
+
 .certifications {
-    padding-left: 20px
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .hobby {
     padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .contact {
-    padding-left: 40px
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.card {
+    --bs-card-bg: transparent;
 }
 
 
